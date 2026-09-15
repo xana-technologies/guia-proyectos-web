@@ -16,7 +16,9 @@ La implementación de referencia es **clays-of-the-world**
 
 Animaciones más allá de la aparición al scroll (GSAP, Lenis, parallax
 escribiendo variables, loaders) → módulo
-[movimiento avanzado](../modulos/movimiento-avanzado.md). Varias páginas con
+[movimiento avanzado](../modulos/movimiento-avanzado.md). Opciones ya probadas
+para cada sección, con ID y dónde verlas →
+[catálogo de animaciones](../catalogo-animaciones.md). Varias páginas con
 navegación → [multipágina](../modulos/multipagina.md). Varios idiomas →
 [idiomas](../modulos/idiomas.md).
 

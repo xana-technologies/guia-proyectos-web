@@ -5,6 +5,9 @@ Animaciones más allá de la aparición al hacer scroll, que es de la base
 scroll suave, secuencias con GSAP e intros. Referencias:
 **xanasystem-web**, **xanatechnologies** y **APC-gestion-patrimonial**.
 
+Cada efecto, con su ID, dónde verlo, estado y código →
+[catálogo de animaciones](../catalogo-animaciones.md).
+
 ## Cuándo se usa (y cuándo no)
 
 - **Sí:** el diseño o las referencias lo piden y Belén lo aprueba

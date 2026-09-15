@@ -37,6 +37,7 @@ documentos para el cliente.
 | [`tipos-de-proyecto/`](tipos-de-proyecto/README.md) | Base + módulos + estructura por defecto para cada tipo de web |
 | [`plantillas/`](plantillas/README.md) | Ficheros listos para copiar: cliente, equipo, proyecto, legales, código |
 | [`skills/`](skills/README.md) | **El plugin `xana`**: tareas concretas que Claude carga solas en cada proyecto |
+| [`catalogo-animaciones.md`](catalogo-animaciones.md) | Las animaciones ya probadas en los proyectos, con ID, dónde verlas, estado y código, para elegir con Belén |
 | [`trampas-y-lecciones.md`](trampas-y-lecciones.md) | Lo que ya ha fallado: síntoma → causa → solución |
 | [`forma-de-trabajo.md`](forma-de-trabajo.md) | Cómo se colabora: planes, feedback, commits, permisos |
 | [`anexos/`](anexos/) | Lo que queda fuera de la guía y la deuda de los proyectos actuales |
