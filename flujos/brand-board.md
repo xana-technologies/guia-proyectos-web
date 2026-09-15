@@ -34,15 +34,45 @@ manual está pensado para imprenta y no responde a lo que pregunta una web:
 que falta con las mismas piezas del brand board: tipografías, estilo de
 fotografía, iconos, tono. Se devuelve al cliente para aprobar.
 
-**🔴 No hay nada.** **Brand board**, con el contenido de
-[abajo](#qué-lleva-el-brand-board). APC se hizo así: brand board creado en
-Claude Design (`C:\Users\Belén\Xana\APC\identidad-marca\`), con paleta,
-tipografías y un recurso gráfico propio; el logo definitivo llegó después
-(`APC-gestion-patrimonial/CLAUDE.md` § Identidad visual).
+**🔴 No hay nada.** Es el paso que más pesa de la fase, porque de él sale la
+identidad. Va en dos tiempos: primero **tres propuestas de marca** para elegir
+([abajo](#tres-propuestas-de-marca)) y después, **con la elegida, el brand
+board** ([contenido](#qué-lleva-el-brand-board)). APC se hizo así: propuestas y
+brand board en Claude Design (`C:\Users\Belén\Xana\APC\identidad-marca\`), con
+paleta, tipografías y un recurso gráfico propio; el logo definitivo llegó
+después (`APC-gestion-patrimonial/CLAUDE.md` § Identidad visual).
 
 **Web de otro producto de la misma marca.** Se usa el manual de la empresa y
 se anota qué cambia (xanasystem-web: identidad de Xana Technologies con
 «SYSTEM» en lugar de «TECHNOLOGIES», `docs/brand.md`).
+
+## Tres propuestas de marca
+
+Solo en 🔴. Decidido por Belén el 15-09-2026, a partir del trabajo de marca de
+APC («Territorio 6 · Marfil y terracota · El arco»).
+
+- **Tres propuestas** en **una página web**, una debajo de otra y con la misma
+  estructura, para compararlas. Son direcciones distintas de verdad, no tres
+  variaciones de color.
+- **Belén elige** una (o mezcla) y se anota la elección y el porqué. **El brand
+  board se hace después, con la elegida.**
+- La página es un [laboratorio](#páginas-de-laboratorio): `noindex, nofollow`,
+  rótulo visible, estilos y fuentes aislados, textos reales del cliente, y se
+  borra al decidir.
+
+Cada propuesta lleva:
+
+| Bloque | Qué incluye |
+| --- | --- |
+| **Nombre** | Número y nombre con carácter («Marfil y terracota · El arco») |
+| **Paleta** | Cada color con nombre, hex, RGB y **para qué se usa** (fondo, texto, acción, datos…) |
+| **Proporción** | Barra con el peso de cada color en la web |
+| **Reglas** | Normas de uso del color (APC: el terracota solo en cursiva, arco, botón o filete) |
+| **Tipografía** | Pareja con licencia web y escala por rol (display, título, cita, entradilla, cuerpo, etiqueta, dato) aplicada a **textos reales del cliente** |
+| **Recurso gráfico** | La pieza propia de la marca, si la hay (APC: «El arco») |
+
+Con el **contraste calculado** de las combinaciones de texto de cada paleta y
+su veredicto (AA, AAA, solo texto grande, falla).
 
 ## Qué lleva el brand board
 
@@ -78,8 +108,9 @@ Formato de las tablas de paleta y tipografía: el de
 3. **Belén** decide lo visual: extensiones de paleta, sustitutos tipográficos,
    qué versión del logo va en cada sitio. Si hay que comparar opciones,
    [página de laboratorio](#páginas-de-laboratorio).
-4. En 🔴: **Belén** hace el brand board con ayuda de Claude
-   ([herramientas](#herramientas)).
+4. En 🔴: **Claude** prepara las [tres propuestas de marca](#tres-propuestas-de-marca)
+   y **Belén** elige una. Con la elegida, **Belén** hace el brand board con
+   ayuda de Claude ([herramientas](#herramientas)).
 5. **Belén** lo envía al cliente. **El cliente aprueba** el brand board (o las
    decisiones que cambian su manual) **antes del design system**.
 6. **Claude** anota lo aprobado en `brand/README.md` con fecha.
@@ -221,6 +252,7 @@ brand/
 - [ ] Tipografías con licencia y archivos para web, o sustituto decidido
 - [ ] Jerarquía tipográfica por rol
 - [ ] Fotografía, iconos, recurso gráfico y tono (en 🟡 y 🔴)
+- [ ] En 🔴: tres propuestas en página web, elegida una por Belén con su porqué
 - [ ] Ejemplos aplicados (en 🔴)
 - [ ] Laboratorios con `noindex`, borrados tras decidir
 - [ ] Revisado por Belén
