@@ -1,0 +1,9 @@
+{
+  "name": "xana",
+  "version": "0.7.0",
+  "description": "Skills para hacer las webs de Xana: tareas concretas que siguen la guía de proyectos web (fases, flujos y plantillas).",
+  "author": {
+    "name": "Xana"
+  },
+  "keywords": ["xana", "astro", "web"]
+}

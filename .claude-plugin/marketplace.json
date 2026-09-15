@@ -1,0 +1,14 @@
+{
+  "name": "xana",
+  "description": "Plugins de Xana para Claude Code.",
+  "owner": {
+    "name": "Xana"
+  },
+  "plugins": [
+    {
+      "name": "xana",
+      "description": "Skills para hacer las webs de Xana siguiendo la guía de proyectos web.",
+      "source": "./"
+    }
+  ]
+}
