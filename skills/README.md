@@ -20,12 +20,30 @@ descripción (o que se llama con `/xana:<nombre>`).
 
 ## Instalar
 
-Una vez por equipo, desde un terminal:
+Una vez por equipo, desde un terminal. Se instala desde GitHub
+(`xana-technologies/guia-proyectos-web`, privado): la cuenta de la clave SSH
+necesita acceso al repositorio.
 
 ```bash
-claude plugin marketplace add C:\Proyectos\guia-proyectos-web
+claude plugin marketplace add git@github-belenxana:xana-technologies/guia-proyectos-web.git
 claude plugin install xana@xana
 ```
+
+## Actualizar
+
+Claude Code usa una copia del repositorio, no la carpeta local. Un cambio en
+una skill o en la guía llega a los proyectos así:
+
+1. Subir `version` en `.claude-plugin/plugin.json`.
+2. Commit y push (con permiso).
+3. En cada equipo:
+
+   ```bash
+   claude plugin marketplace update xana
+   claude plugin update xana@xana
+   ```
+
+4. Las skills nuevas se cargan en la siguiente sesión.
 
 ## Lista
 
