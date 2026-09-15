@@ -53,6 +53,8 @@ Estado: ✅ hecha · ⏳ pendiente de escribir.
 | `xana:ordenar-referencias` | `referencias.md`: qué se toma de cada referencia y qué no | [referencias visuales](../flujos/referencias-visuales.md) | ✅ |
 | `xana:crear-tokens` | Paleta, escalas y tokens semánticos | [design system](../flujos/design-system.md) | ✅ |
 | `xana:componentes-base` | Componentes base, moldes y styleguide | [design system](../flujos/design-system.md) | ✅ |
+| `xana:libreria-figma` | Variables y componentes en Figma generados desde `tokens.css` | [diseño en Figma](../flujos/diseno-figma.md) | ✅ |
+| `xana:seccion-a-figma` | Sección construida llevada a Figma para ajustarla (caso B) | [diseño en Figma](../flujos/diseno-figma.md) | ✅ |
 | `xana:figma-a-seccion` | Sección con los valores exactos del nodo de Figma | [diseño en Figma](../flujos/diseno-figma.md) | ✅ |
 
 ### Imágenes y vídeo
